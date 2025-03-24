@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import SmoothScrolling from "./components/ui/SmoothScrolling";
 import "./globals.css";
 
+
 const aeonikRegular = localFont({
   src: "./fonts/Aeonik-Regular.ttf",
   variable: "--font-aeonik-sans",
@@ -21,6 +22,9 @@ export const metadata: Metadata = {
   title: "Arunava Mondal ",
   description:
     "Explore Arunava Mondal's portfolio showcasing expertise in full-stack development, innovative projects, and professional achievements in web technologies.",
+  icons: {
+    icon: "/assets/favicon.png",
+  }
 };
 
 export default function RootLayout({
